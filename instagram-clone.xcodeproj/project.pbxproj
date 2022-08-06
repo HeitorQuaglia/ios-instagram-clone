@@ -17,6 +17,8 @@
 		A0CA8AB7289E319A0071766C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA8AB6289E319A0071766C /* CameraViewController.swift */; };
 		A0CA8AB9289E31C90071766C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA8AB8289E31C90071766C /* NotificationViewController.swift */; };
 		A0CA8ABB289E31E70071766C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA8ABA289E31E70071766C /* ProfileViewController.swift */; };
+		A0CA8ABE289E32B30071766C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA8ABD289E32B30071766C /* LoginViewController.swift */; };
+		A0CA8AC1289E32EF0071766C /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA8AC0289E32EF0071766C /* RegistrationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		A0CA8AB6289E319A0071766C /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		A0CA8AB8289E31C90071766C /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		A0CA8ABA289E31E70071766C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A0CA8ABD289E32B30071766C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A0CA8AC0289E32EF0071766C /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 		A0CA8AAF289E2F830071766C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A0CA8ABF289E32BB0071766C /* Onboard */,
 				A0CA8ABC289E322B0071766C /* Core */,
 			);
 			path = Controllers;
@@ -125,6 +130,15 @@
 				A0CA8ABA289E31E70071766C /* ProfileViewController.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		A0CA8ABF289E32BB0071766C /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA8ABD289E32B30071766C /* LoginViewController.swift */,
+				A0CA8AC0289E32EF0071766C /* RegistrationViewController.swift */,
+			);
+			path = Onboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +215,9 @@
 				A0CA8AB5289E317E0071766C /* ExploreViewController.swift in Sources */,
 				A0CA8AB7289E319A0071766C /* CameraViewController.swift in Sources */,
 				A0CA8AB9289E31C90071766C /* NotificationViewController.swift in Sources */,
+				A0CA8AC1289E32EF0071766C /* RegistrationViewController.swift in Sources */,
 				A0CA8AA0289E2F0E0071766C /* HomeViewController.swift in Sources */,
+				A0CA8ABE289E32B30071766C /* LoginViewController.swift in Sources */,
 				A0CA8ABB289E31E70071766C /* ProfileViewController.swift in Sources */,
 				A0CA8A9C289E2F0E0071766C /* AppDelegate.swift in Sources */,
 				A0CA8A9E289E2F0E0071766C /* SceneDelegate.swift in Sources */,
